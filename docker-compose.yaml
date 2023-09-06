@@ -1,0 +1,11 @@
+version: '3'
+services:
+  tomcat:
+    build: 
+       context: /mnt/temp
+    
+    image: mytomcat:1.0
+    ports: 
+    - "80:8080"
+
+
